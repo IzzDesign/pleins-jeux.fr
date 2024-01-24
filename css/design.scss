@@ -444,7 +444,7 @@ iframe{
 	}
 
 	.nav_a-links{
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	.index_presentation div{
@@ -530,16 +530,12 @@ iframe{
 	}
 }
 
-@media (max-width: 550px) {
-	.nav_a-links{
-		font-size: 0.7em;
-	}
-}
-
 @media (max-width: 470px) {
 	.nav_a-links{ 
 		text-align: center;
-		font-size: 0.8em;
+		a{
+			margin: 0.2em 0;
+		}
 		div{
 			flex-direction: column;
 			align-items: center;
