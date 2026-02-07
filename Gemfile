@@ -3,4 +3,4 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "webrick"
-gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-sass-converter", "~> 3.0"
